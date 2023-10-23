@@ -1,0 +1,18 @@
+{
+    "horses": [
+      {
+        "Name": "The Flash",
+        "Age": 5,
+        "Health": ["Slight limp on right hind leg", "Last check-up: 2023-10-15"],
+        "Diet": "Hay, grains, water",
+        "Maintenance": ["Hoof cleaning due on: 2022-10-22"]
+      }
+    ],
+    "race_logs": [
+      {
+        "HorseName": "Thunderbolt",
+        "RaceDate": "2023-03-20",
+        "RaceResult": "1st"
+      }
+    ]
+  }
