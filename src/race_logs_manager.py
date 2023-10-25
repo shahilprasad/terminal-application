@@ -5,8 +5,10 @@ from validator import validate_race_log
 # Allow user to add race results which will be stored in json file
 def add_race_log():
     horse_name = input("Enter horse name: ")
-    race_date = input_date("Enter race date (DD-MM-YYYY): ")
+    race_date_obj = input_date("Enter race date (DD-MM-YYYY): ")  # Returns a datetime.date object
+    race_date = race_date_obj.strftime('%d-%m-%Y')  # Converts the datetime.date object to a string
     race_result = input("Enter race result: ")
+
     new_log = {"HorseName": horse_name, "RaceDate": race_date, "RaceResult": race_result}
 
 # Validate the data entry from the user to ensure that it matches
