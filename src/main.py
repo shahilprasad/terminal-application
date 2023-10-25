@@ -4,8 +4,8 @@ import race_logs_manager
 
 # Main menu for application
 def main_menu():
-    while True:
-        os.system('clear')  # Clears console when called
+     os.system('clear')  # Clears console when called
+     while True:
         print("-- Horse Stable Management App --")
         print("1. Add horse")
         print("2. Remove horse")
