@@ -7,12 +7,14 @@ def validate_horse(data):
     try:
         jsonschema.validate(instance=data, schema=horse_schema)
         return True
-    except jsonschema.exceptions.ValidationError:
+    except jsonschema.exceptions.ValidationError as e:
+        print(f"Validation error: {e}")
         return False
 
 def validate_race_log(data):
     try:
         jsonschema.validate(instance=data, schema=race_log_schema)
         return True
-    except jsonschema.exceptions.ValidationError:
+    except jsonschema.exceptions.ValidationError as e:
+        print(f"Validation error: {e}")
         return False
