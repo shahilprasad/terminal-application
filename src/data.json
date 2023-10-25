@@ -1,4 +1,1 @@
-{
-  "horses": [],
-  "race_logs": []
-}
+{"horses": [{"Name": "Lightning", "Age": 5, "Health": "Healthy", "Diet": "Hay, fruits and water"}, {"Name": "Lucky 7", "Age": 6, "Health": "Slight limp on back right leg", "Diet": "Grass, hay, and water"}], "race_logs": [{"HorseName": "Lightning", "RaceDate": "11-04-2023", "RaceResult": "1st"}, {"HorseName": "Lucky 7", "RaceDate": "20-06-2023", "RaceResult": "3rd"}, {"HorseName": "Lightning", "RaceDate": "29-09-2023", "RaceResult": "2nd"}]}
