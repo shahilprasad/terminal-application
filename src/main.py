@@ -3,7 +3,7 @@ import horse_manager
 import race_logs_manager
 
 # Main menu for application
-def main_menu():
+def main():
      os.system('clear')  # Clears console when called
      while True:
         print("-- Horse Stable Management App --")
@@ -35,4 +35,5 @@ def main_menu():
         else:
             print("Invalid choice, please try again!")
 
-main_menu()
+if __name__ == "__main__":
+    main()

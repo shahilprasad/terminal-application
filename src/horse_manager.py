@@ -5,7 +5,7 @@ from validator import validate_horse
 # Add new horse to the database
 def add_horse():
     name = input("Enter horse name: ")
-    age = int(input("Enter horse age: "))
+    age = input_int("Enter horse age: ")
     health = input("Enter horse health status: ")
     diet = input("Enter horse diet: ")
     new_horse = {"Name": name, "Age": age, "Health": health, "Diet": diet}
