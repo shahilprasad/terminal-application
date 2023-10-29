@@ -18,4 +18,3 @@ def validate_race_log(data):
     except jsonschema.exceptions.ValidationError as e:
         print(f"Validation error: {e}")
         return False
-git 
