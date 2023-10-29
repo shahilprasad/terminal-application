@@ -1,4 +1,4 @@
-# import jsonschema
+import jsonschema
 from schemas import horse_schema, race_log_schema
 
 # File utilises the jsonschema library to validate data entries
@@ -18,3 +18,4 @@ def validate_race_log(data):
     except jsonschema.exceptions.ValidationError as e:
         print(f"Validation error: {e}")
         return False
+git 
