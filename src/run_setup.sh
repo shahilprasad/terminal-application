@@ -10,4 +10,4 @@ echo "Installing required packages..."
 python3 -m pip install -r requirements.txt
 echo "Setup completed successfully!"
 
-echo "To run the app, please enter the following: bash run_setup.sh"
+echo "To run the app, please enter the following: bash run_app.sh"
