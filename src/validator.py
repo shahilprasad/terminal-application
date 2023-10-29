@@ -1,4 +1,4 @@
-import jsonschema
+# import jsonschema
 from schemas import horse_schema, race_log_schema
 
 # File utilises the jsonschema library to validate data entries
