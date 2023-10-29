@@ -17,10 +17,8 @@
 2. You will then need to open your systems command line (e.g Terminal) and enter the following code.
 ```git clone https://github.com/shahilprasad/terminal-application.git```
 
-3. You will thn need to enter into the folder containing the code for the application within the folder that was cloned.
+3. You will then need to navigate into the folder containing the code for the application within the cloned folder.
 ```cd terminal-application/src```
-
-Please note that ```-main``` may not be included in the file name. I
 
 4. Next, you will need to enter ```bash run_setup.sh``` into the command line to install the requirements for the application to run correctly.
 
@@ -39,13 +37,17 @@ THis features allows the user to remove a horse from the database. If the user p
 ##### Feature 3: Update horse details
 This feature allows the user to update the details of an exisiting horse within the database. It can be utilised to update the name, age, health status or diet of a horse. If a horse is not found when entering its name, the user will me notified that horse does not exist.
 
-##### Feature 4: View race results
+##### Feature 4: View horse details
+Allows the user to view te details of all the horses that exist in the database. 
 
 ##### Feature 5: Add race results
+Allows the user to add a race result which will be added to the database. User will be prompted to input the name of the horse, followed by the date and result of the race.
 
-##### Feature 6: View tace logs
+##### Feature 6: View race logs
+Allows the user to view all race results that exist in the database.
 
 ##### Feature 7: Exit the application
+User will be able to exit the application by enteriong the corresponding input.
 
 ### Implementation
 
